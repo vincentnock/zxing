@@ -164,5 +164,10 @@ public final class PlanarYUVLuminanceSource extends LuminanceSource {
       }
     }
   }
+  
+  @Override
+  public boolean isRotateSupported() {
+    return true;
+  }
 
 }
